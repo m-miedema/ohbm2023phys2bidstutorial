@@ -1,2 +1,2 @@
-# ohbm2023phys2bidstutorial
-Material for the OHBM 2023 Educational Course Tutorial "Hands (and sensors!) on: a practical guide to acquiring your own physiological data"
+# Material for the OHBM 2023 Educational Course Tutorial "Hands (and sensors!) on: a practical guide to acquiring your own physiological data"
+This repository contains installation materials, data, and code for the tutorial "Hands (and sensors!) on: a practical guide to acquiring your own physiological data"  at the OHBM 2023 Educational Course "Physiologic fMRI signals: friend or foe? How and why to measure, model, and account for physiology".
