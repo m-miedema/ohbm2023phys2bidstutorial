@@ -1,0 +1,27 @@
+{
+	"channels": [
+		"Trigger",
+		"CO2",
+	],
+	"frequencies": [
+		100,
+		100,
+	],
+	"types": [
+		"txt"
+	],
+	"contains": {
+		"headers": "True",
+		"time_column": "True",
+		"comments": "False"
+	},
+	"acquisition": {
+		"instrument": "ADInstruments",
+		"software": "Labchart"
+	},
+	"neuroimaging": {
+		"TR": [1.2, 1.2],
+		"num_tps": [534, 513]
+	},
+	"description": "Two scans (first scan is the same as Test2_time_trigger_CO2_O2_pulse_1000Hz_534TRs)"
+}
