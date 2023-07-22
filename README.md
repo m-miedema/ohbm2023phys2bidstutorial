@@ -76,6 +76,7 @@ phys2bids -in samefreq_multiscan.txt -out multiscan_split -ntp 534 513 -tr 1.2
 #### Next, let's go all the way and bids-ify the data using the heuristic file!
 ```
 phys2bids -in samefreq_multiscan.txt -out multiscan_bids -ntp 534 513 -tr 1.2 -sub 001 -ses 01 -heur heur_tutorial.py
+```
 
 #### Now, look at our next dataset.
 ```
