@@ -1,7 +1,7 @@
 # Material for the OHBM 2023 Educational Course Tutorial "Hands (and sensors!) on: a practical guide to acquiring your own physiological data"
 This repository contains installation materials, data, and code for the tutorial "Hands (and sensors!) on: a practical guide to acquiring your own physiological data"  at the OHBM 2023 Educational Course "Physiologic fMRI signals: friend or foe? How and why to measure, model, and account for physiology". You can find links to other tutorials in this course [here](https://physiopy.github.io/ohbm23_tutorials/).
 
-Thank you to Stefano Moia for help in preparing the installation instructions for this tutorial! You can also find more comprehensive documentation for installing phys2bids [here](https://phys2bids.readthedocs.io/en/latest/installation.html).
+Thank you to Stefano Moia for help in preparing the installation instructions for this tutorial! You can also find more comprehensive documentation for installing and using phys2bids [here](https://phys2bids.readthedocs.io/en/latest/installation.html).
 
 ## Laptop set-up
 To follow this tutorial, you will need a laptop, requiring a little bit of setup beforehand.
