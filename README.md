@@ -48,3 +48,35 @@ Run:
 phys2bids -v
 ```
 I am running 'phys2bids 2.10.0' for this tutorial!
+
+### 4. Get to know phys2bids
+
+You can find all the information you need to interact with phys2bids from the commandline by running:
+
+```
+phys2bids -h
+```
+or
+```
+phys2bids --help
+```
+
+### Let's deal with some data!
+
+#### Load in the first dataset and take a look.
+
+```
+phys2bids -in samefreq_multiscan.txt -out multiscan_info -info
+```
+
+#### Let's split the dataset into its functional scans!
+```
+phys2bids -in samefreq_multiscan.txt -out multiscan_split -ntp 534 513 -tr 1.2
+```
+
+#### Next, let's go all the way and bids-ify the data using the heuristic file!
+```
+phys2bids -in samefreq_multiscan.txt -out multiscan_bids -ntp 534 513 -tr 1.2 -sub 001 -ses 01 -heur heur_tutorial.py
+```
+
+
