@@ -6,19 +6,12 @@ Thank you to Stefano Moia for help in preparing the installation instructions fo
 ## Laptop set-up
 To follow this tutorial, you will need a laptop, requiring a little bit of setup beforehand.
 
-### Option 1: Docker
-If you are comfortable using [Docker](https://www.docker.com/), I have prepared a container in which the tutorial can be run. You can download this container and run it interactively:
-
-```
-
-```
-
-### Option 2: Set up your own installation!
+### To start: set up your own installation!
 
 #### 0. Prerequisites
 You will need a laptop with python installed, as well as pip. Python version should be 3.7 or above. You also need to download the files in this repository, either zipped in a package or by locally cloning the repository.
 
-#### 1. Virtual Environment
+#### 1. Virtual environment
 The best way to ensure the software will function without changing anything in your system is using a virtual environment. For that, first install virtualenv::
 
 ```
@@ -38,7 +31,7 @@ Note that the first command above will create a folder where you called it from,
 
 Once you activated the virtual environment, you can proceed with package installation.
 
-#### 2. Package Installation
+#### 2. Package installation
 To install the phys2bids software for this tutorial, you should run the following command:
 
 ```
@@ -48,9 +41,10 @@ pip install phys2bids[acq]
 Here, `[acq]` specifies that we are also installing the `bioread` module, which adds support for loading `.acq` files.
 
 
-#### 3. Check Your Installation
+#### 3. Check your installation
 Run:
 
 ```
 phys2bids -v
 ```
+I am running 'phys2bids 2.10.0' for this tutorial!
