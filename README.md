@@ -64,7 +64,6 @@ phys2bids --help
 ### Let's deal with some data!
 
 #### Load in the first dataset and take a look.
-
 ```
 phys2bids -in samefreq_multiscan.txt -out multiscan_info -info
 ```
@@ -77,6 +76,15 @@ phys2bids -in samefreq_multiscan.txt -out multiscan_split -ntp 534 513 -tr 1.2
 #### Next, let's go all the way and bids-ify the data using the heuristic file!
 ```
 phys2bids -in samefreq_multiscan.txt -out multiscan_bids -ntp 534 513 -tr 1.2 -sub 001 -ses 01 -heur heur_tutorial.py
+
+#### Now, look at our next dataset.
+```
+phys2bids -in multifreq.acq -out multifreq_info -info
 ```
 
+#### If we bids-ify the data, it will automatically be split into files for each frequency.
+Here, I'm selecting only the first four channels, since it looks like the C02 and O2 channels weren't used to collect data for this recording.
+```
+phys2bids -in multifreq.acq -out multifreq_bids -ntp 60 -tr 1.5 -chsel 1 2 3 4 -sub 002 -ses 01 -heur heur_tutorial.py
+```
 
